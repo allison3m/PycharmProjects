@@ -36,7 +36,7 @@ elif pc == 1 : # pc papel
     elif jg == 1:
         print('\033[33mEMPATE\033[m!')
     elif jg == 2:
-        print('\033[32mVOCÊ VENCEU!\033[m')
+        print('\033[32mVOCÊ Vx  ENCEU!\033[m')
     else:
         print('JOGADA INVÁLIDA')
 elif pc == 2: # pc tesoura
