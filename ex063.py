@@ -3,11 +3,11 @@ print('-_' * 20)
 print('        JOGO DE PAR OU IMPAR')
 print('-_' * 20)
 par = impar = soma = cont = 0
-pi = ' '
 while True:
     pc = random.randint(0,10)
     num = int(input('Digite um número:'))
-    while pi not in 'PI' :
+    pi = ' '
+    while pi not in 'PI':
         pi = str(input('Você quer par ou ímpar [P/I]:')).upper().strip()[0]
     print(f'O pc escolheu {pc} e você {num}')
     if (pc + num) % 2 == 0:
